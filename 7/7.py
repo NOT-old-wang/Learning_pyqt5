@@ -2,10 +2,12 @@ from PyQt5 import QtWidgets
 from PyQt5.QtWidgets import QColorDialog,QFontDialog  
 from PyQt5.QtCore import Qt  
 from PyQt5.QtGui import QPalette  
+
 '''
 QColorDialog颜色对话框
 QFontDialog字体对话框
 ''' 
+
 class MyWindow(QtWidgets.QWidget):  
     def __init__(self):  
         super(MyWindow,self).__init__()  
