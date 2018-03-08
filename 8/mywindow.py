@@ -20,7 +20,7 @@ class MyWindow(QtWidgets.QMainWindow,Ui_MainWindow):
         self.fileClose.triggered.connect(self.childShow)      
         
     def childShow(self):  
-        self.gridLayout.addWidget(self.child)          #添加子窗口  
+        self.gridLayout_2.addWidget(self.child)          #添加子窗口  
         self.child.show()  
 
     def openMsg(self):  
@@ -36,3 +36,4 @@ if __name__=="__main__":
     myshow=MyWindow()  
     myshow.show()  
     sys.exit(app.exec_())  
+
